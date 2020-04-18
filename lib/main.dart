@@ -40,14 +40,14 @@ class _HomepageState extends State<Homepage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Container(
+              Container(               
                 height: 210,
                 child: AspectRatio(
                   aspectRatio: 3.1 / 2,
                   child: GestureDetector(
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.black,
+                        color: Colors.black87,
                         borderRadius: BorderRadius.circular(20.0),
                       ),
                       child: Padding(
